@@ -1,0 +1,22 @@
+public class Main {
+    // Function to find the minimum and maximum value
+    static void minMaxArray(int[] arr) {
+        int min = arr[0];
+        int max = arr[0];
+        for (int num : arr) {
+            if (num < min) {
+                min = num;
+            }
+            if (num > max) {
+                max = num;
+            }
+        }
+        System.out.println("Min: " + min);
+        System.out.println("Max: " + max);
+    }
+
+    public static void main(String[] args) {
+        int[] numbers = {10, 20, 5, 40, 15};
+        minMaxArray(numbers);
+    }
+}
