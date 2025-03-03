@@ -1,0 +1,22 @@
+public class Main {
+
+    // Method to demonstrate increment and decrement operators
+    static void incrementDecrementOperators() {
+        int num = 10;
+        System.out.println("Original value: " + num);
+        
+        // Increment operator
+        System.out.println("After Increment: " + (++num)); // Pre-increment
+        System.out.println("After Increment (Post): " + (num++)); // Post-increment
+        System.out.println("Value after Post-increment: " + num);
+        
+        // Decrement operator
+        System.out.println("After Decrement: " + (--num)); // Pre-decrement
+        System.out.println("After Decrement (Post): " + (num--)); // Post-decrement
+        System.out.println("Value after Post-decrement: " + num);
+    }
+
+    public static void main(String[] args) {
+        incrementDecrementOperators();  // Calling method
+    }
+}
