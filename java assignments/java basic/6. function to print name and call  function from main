@@ -1,0 +1,13 @@
+public class Main {
+
+    // Function to print your name
+    static void printName() {
+        System.out.println("Alekhya");  
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        // Calling the function from the main method
+        printName();
+    }
+}
