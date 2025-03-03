@@ -1,15 +1,26 @@
-# Class Definition
-class Person:
-    # Constructor Method (init)
-    def __init__(self, name):
-        self.name = name  # Instance variable
+// Class Definition
+class Person {
+    // Instance variable
+    String name;
 
-    # Method to print name
-    def print_name(self):
-        print("My name is", self.name)
+    // Constructor
+    Person(String name) {
+        this.name = name;
+    }
 
-# Creating an object of the class
-person = Person("Alekhya")  # Object creation
+    // Method to print name
+    void printName() {
+        System.out.println("My name is " + name);
+    }
+}
 
-# Calling method from object
-person.print_name()  # Method signature: def print_name(self)
+public class Main {
+    public static void main(String[] args) {
+        // Creating an object of the class
+        Person person = new Person("John Doe");
+
+        // Calling the method from the object
+        person.printName();  // Method signature: void printName()
+    }
+}
+
