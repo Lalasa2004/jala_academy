@@ -17,7 +17,7 @@ class Person {
 public class Main {
     public static void main(String[] args) {
         // Creating an object of the class
-        Person person = new Person("John Doe");
+        Person person = new Person("Alekhya");
 
         // Calling the method from the object
         person.printName();  // Method signature: void printName()
