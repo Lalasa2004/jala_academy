@@ -1,13 +1,6 @@
-# Defining variables with different data types
-my_int = 10  # Integer
-my_bool = True  # Boolean
-my_char = 'A'  # Character (single string in Python)
-my_float = 3.14  # Float
-my_double = 3.14159  # Double (same as float in Python)
-
-# Printing variables
-print("Integer:", my_int)
-print("Boolean:", my_bool)
-print("Character:", my_char)
-print("Float:", my_float)
-print("Double:", my_double)
+public class Main {
+    public static void main(String[] args) {
+        // Program to print name
+        System.out.println("Alekhya"); 
+    }
+}
