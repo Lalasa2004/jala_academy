@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+public class Main {
+    // Function to find the second largest number in an array
+    static int secondLargest(int[] arr) {
+        Arrays.sort(arr);
+        return arr[arr.length - 2];
+    }
+
+    public static void main(String[] args) {
+        int[] numbers = {10, 20, 30, 40, 50};
+        System.out.println("Second largest: " + secondLargest(numbers));
+    }
+}
