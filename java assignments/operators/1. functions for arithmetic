@@ -1,0 +1,15 @@
+public class Main {
+
+    // Function for arithmetic operations
+    static void arithmeticOperations(int a, int b) {
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
+        System.out.println("Division: " + (a / b));  // Integer division
+    }
+
+    public static void main(String[] args) {
+        int num1 = 10, num2 = 5;
+        arithmeticOperations(num1, num2);  // Calling function
+    }
+}
