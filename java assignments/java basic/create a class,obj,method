@@ -9,7 +9,7 @@ class Person:
         print("My name is", self.name)
 
 # Creating an object of the class
-person = Person("John Doe")  # Object creation
+person = Person("Alekhya")  # Object creation
 
 # Calling method from object
 person.print_name()  # Method signature: def print_name(self)
