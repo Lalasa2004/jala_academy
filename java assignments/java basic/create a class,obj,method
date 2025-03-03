@@ -1,0 +1,15 @@
+# Class Definition
+class Person:
+    # Constructor Method (init)
+    def __init__(self, name):
+        self.name = name  # Instance variable
+
+    # Method to print name
+    def print_name(self):
+        print("My name is", self.name)
+
+# Creating an object of the class
+person = Person("John Doe")  # Object creation
+
+# Calling method from object
+person.print_name()  # Method signature: def print_name(self)
