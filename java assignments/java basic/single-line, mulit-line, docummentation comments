@@ -1,11 +1,16 @@
-# This is a single-line comment
+public class Main {
+    public static void main(String[] args) {
+        // This is a single-line comment
 
-'''
-This is a multi-line comment.
-You can write multiple lines of comments here.
-'''
+        /*
+         * This is a multi-line comment.
+         * You can write multiple lines of comments here.
+         */
 
-"""
-This is a documentation comment.
-This is used to describe the purpose of a class or function.
-"""
+        /**
+         * This is a documentation comment.
+         * It's used to describe the purpose of classes, methods, or fields.
+         */
+        System.out.println("Check the comments above!");
+    }
+}
