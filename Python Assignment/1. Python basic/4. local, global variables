@@ -1,0 +1,7 @@
+#Global Variable
+my_var="Global variable"
+def my_function():
+    my_var="Local Variable"
+    print(my_var)  #Print local variable
+my_function()
+print(my_var)
