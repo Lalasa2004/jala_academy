@@ -1,0 +1,23 @@
+# Integer
+example_int = 10
+print("Integer:", example_int)
+
+# Boolean
+example_bool = True
+print("Boolean:", example_bool)
+
+# Character 
+example_char = 'A'
+print("Character:", example_char)
+
+# Float
+example_float = 3.14159
+print("Float:", example_float)
+
+# Double 
+example_double = 2.71828
+print("Double:", example_double)
+
+# String 
+my_string = "Hello, world!"
+print("String:", my_string)
