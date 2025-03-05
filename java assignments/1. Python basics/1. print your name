@@ -1,0 +1,9 @@
+#single line comment
+'''
+hi this is Alekhya
+i am currently pursuing bca
+'''
+"""
+This is python programming
+"""
+print("Alekhya")#print my name
